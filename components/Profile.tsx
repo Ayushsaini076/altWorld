@@ -40,6 +40,7 @@ const Profile:React.FC<props4> = ({info,mpp}) => {
           <div className="mt-[3rem]">
           {mpp.map((item)=>(
             <Card2
+            key={item.score_type}
             type={item.score_type}
             value={item.user_score}
             />
