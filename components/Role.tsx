@@ -72,6 +72,7 @@ const Role:React.FC<props3> = ({details,users,date}) => {
               {users.map((user) => (
                 <Card
                   // name:String={user.full_name}
+                  key={user.id}
                   name={user.full_name}
                   email={user.email}
                   score={user.score}

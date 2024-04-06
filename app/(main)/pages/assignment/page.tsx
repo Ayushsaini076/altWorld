@@ -41,7 +41,7 @@ const scores=[
   },
 ];
 
-const page = () => {
+const Page = () => {
   const [date, setDate] = useState("11 March 2024");
   const [details, setDetails] = useState(det);
   const [users, SetUsers] = useState(arr);
@@ -99,4 +99,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
