@@ -30,4 +30,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .overflow-y-scroll::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for WebKit (Chrome, Safari, etc.) */
+  }
+  
+  .overflow-y-scroll {
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
 }
